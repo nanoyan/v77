@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - csv/*
+
+name: Run and deploy
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          node-version: 18
+      - run: |
+          npm ci
+          npm run run_id
+          npm run run_ttl
+      - name: Update ttl
+        run: |
+          git config --global user.email yan.ping.chen.lin@iqb.hu-berlin.de
+          git config --global user.name Yan Ping Chen Lin
+          git add --all -- :!csv/*
+          git commit -m 'Updating ttl with Github Actions'
+          git push origin master --force
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,135 @@
+{
+    "id": "Itemformat",
+    "title": [
+      {
+        "lang": "de",
+        "value": "Itemformat"
+      }
+    ],
+    "csv_delimiter": ",",
+    "base": "https://w3id.org/iqb/v27",
+    "outDir": "./",
+    "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
+    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+    "vocabularies": [
+      {
+        "id": "it",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Itemtyp"
+          }
+        ],
+        "filenameSource": "it_Itemtyp.csv",
+        "filenameTarget": "it_Itemtyp.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "mp",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Itemformat Mathematik Primar"
+          }
+        ],
+        "filenameSource": "mp_Itemformat_Mathematik_Primar.csv",
+        "filenameTarget": "mp_Itemformat_Mathematik_Primar.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "dp",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Itemformat Deutsch Primar"
+          }
+        ],
+        "filenameSource": "dp_Itemformat_Deutsch_Primar.csv",
+        "filenameTarget": "dp_Itemformat_Deutsch_Primar.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "ds",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Itemformat Deutsch Sek I"
+          }
+        ],
+        "filenameSource": "ds_Itemformat_Deutsch_Sek_I.csv",
+        "filenameTarget": "ds_Itemformat_Deutsch_Sek_I.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "fe",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Itemformat Englisch"
+          }
+        ],
+        "filenameSource": "fe_Itemformat_Englisch.csv",
+        "filenameTarget": "fe_Itemformat_Englisch.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "ff",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Itemformat Französisch"
+          }
+        ],
+        "filenameSource": "ff_Itemformat_Französisch.csv",
+        "filenameTarget": "ff_Itemformat_Französisch.ttl",
+        "description": [
+          {
+                "lang": "de",
+                "value": ""
+          }
+        ]
+      },
+      {
+        "id": "ti",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Technische Itemkategorie"
+          }
+        ],
+        "filenameSource": "ti_Technische_Itemkategorie.csv",
+        "filenameTarget": "ti_Technische_Itemkategorie.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }

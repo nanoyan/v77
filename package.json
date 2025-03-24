@@ -1,0 +1,22 @@
+{
+  "name": "iqb-vocabs_v27",
+  "version": "0.6.0",
+  "description": "Itemformat",
+  "scripts": {
+    "run_id": "addidcsv csv",
+    "run_ttl": "csv2ttl csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/v27.git"
+  },
+  "author": "IQB",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/v27/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/v27#readme",
+  "devDependencies": {
+    "@iqb/csv2ttl": "^0.8.3"
+  }
+}

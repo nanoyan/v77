@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v27/ff/>. 
+
+n0:c9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mehrfachwahlaufgabe"@de.
+n0:u3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zuordnungsaufgabe"@de.
+n0:t3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kurzantwortaufgabe"@de.
+n0:y3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Ergänzungsaufgabe"@de.
+n0:q3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Satzergänzung"@de.
+n0:z9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Markieren"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Itemformat - Itemformat Französisch"@de;
+	dc:title "Itemformat - Itemformat Französisch"@de;
+	dc:description "Itemformat - Itemformat Französisch"@de;
+	skos:hasTopConcept
+		n0:c9r,
+		n0:u3s,
+		n0:t3f,
+		n0:y3r,
+		n0:q3s,
+		n0:z9q.
