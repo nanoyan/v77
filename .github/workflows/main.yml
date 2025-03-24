@@ -24,7 +24,7 @@ jobs:
       - name: Update ttl
         run: |
           git config --global user.email yan.ping.chen.lin@iqb.hu-berlin.de
-          git config --global user.name Yan Ping Chen Lin
+          git config --global user.name 'Yan Ping Chen Lin'
           git add --all -- :!csv/*
           git commit -m 'Updating ttl with Github Actions'
           git push origin master --force
