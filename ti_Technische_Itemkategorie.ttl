@@ -39,13 +39,13 @@ n0:b5v
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Sortierliste"@de.
-n0:f5t
+n0:f9z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Rechenkästchen"@de.
-n0:x4p
+n0:z3q
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -64,5 +64,5 @@ n0:
 		n0:b3t,
 		n0:s5g,
 		n0:b5v,
-		n0:f5t,
-		n0:x4p.
+		n0:f9z,
+		n0:z3q.
